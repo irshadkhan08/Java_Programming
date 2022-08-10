@@ -22,7 +22,5 @@ public class Irk_13_strings {
 //        System.out.println(st);
         String st1 = sc.nextLine();
         System.out.println(st1);
-
-
     }
 }
