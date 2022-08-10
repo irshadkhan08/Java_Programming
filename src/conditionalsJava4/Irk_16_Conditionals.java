@@ -1,4 +1,4 @@
-package conditionalsJava;
+package conditionalsJava4;
 
 public class Irk_16_Conditionals {
     public static void main(String[] args) {
