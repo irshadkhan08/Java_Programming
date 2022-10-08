@@ -26,12 +26,12 @@ public class Irk_05_TakingInput {
       //  System.out.println("string method");
 //        String str1 = sc.nextLine();
 //        System.out.println("nextLine()method = "+str1);
-//        String str = sc.next();
-//        System.out.println("next()method = "+str);
+        String str = sc.next();
+        System.out.println("next()method = "+str);
 
         System.out.println("Enter The value :");
-        //boolean a = sc.hasNextInt();
-        boolean a = sc.hasNextBigInteger();
-        System.out.println(a);
+         boolean a = sc.hasNextInt();
+        //boolean a = sc.hasNextBigInteger();
+//        System.out.println(a);
     }
 }

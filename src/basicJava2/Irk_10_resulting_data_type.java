@@ -33,7 +33,9 @@ public class Irk_10_resulting_data_type {
 //        float c = a+b;
 //        System.out.println("int+float convert to float  "+c);
 
-//        char a = 'a';
+//        char a = 'A';
+//        int f = 'a';
+//        System.out.println((int)f); // 97 of ascii
 //        int b = 23;
 //        int c = a+b;
 //        System.out.println("char+int convert to int "+c);
@@ -54,27 +56,29 @@ public class Irk_10_resulting_data_type {
 //        System.out.println("float+double convert  to double "+c);
 
         // Increment and decrement operators
-        int i = 56;
+       int i = 56;
+        i++;
         System.out.println(i++);
         System.out.println(i);
         System.out.println(++i);
-        System.out.println(i);
-
-        System.out.println("quiz ");
-        int a = 10;
-        System.out.println(a++);
-        System.out.println(++a);
-        System.out.println(a--);
-        System.out.println(--a);
-
-        System.out.println("Quick quiz ");
-        int y = 7;
-        int x = ++y*8;
-        System.out.println("value of x = "+x);
-
+//        System.out.println(i);
+//
+//        System.out.println("quiz ");
+//        int a = 10;
+//        System.out.println(a++);
+//        System.out.println(++a);
+//        System.out.println(a--);
+//        System.out.println(--a);
+//
+//        System.out.println("Quick quiz ");
+//        int y = 7;
+//        int x = ++y*8;
+//        System.out.println("value of x = "+x);
+//
         char j = 'B';
         j++;
-        System.out.println("char value is increment = "+j);
+        System.out.println("char value is increment = "+j); //C
+        System.out.println("char value is increment = "+(int)j); //67
 
     }
 }

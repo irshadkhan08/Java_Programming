@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Irk_29_Practice_Set_6 {
     public static void main(String[] args) {
         //practice1
-//        float marks[] = new float[5];
+        //float marks[] = new float[5];
 //        float marks[] = {95.5f,89.5f,87.5f,97.0f,87.0f};
 //        float sum = 0;
 //        for(int i = 0; i<marks.length; i++)
@@ -16,7 +16,7 @@ public class Irk_29_Practice_Set_6 {
 //        {
 //            sum = sum+element;
 //        }
-//        System.out.println("sum of 5 floats number = "+sum);
+//       System.out.println("sum of 5 floats number = "+sum);
 
         //practice2
 
@@ -36,22 +36,29 @@ public class Irk_29_Practice_Set_6 {
 //         System.out.println("The value is not present in the array");
 //     }
 
-        //practice3
 
+        //practice3
 //        float[] marks = {45.7f,67.8f, 63.4f, 99.2f,100.0f};
-//        float sum = 0;
-//        for(float element : marks){
+//       float sum = 0;
+//        float a[] = new float[5];
+//        Scanner sc = new Scanner(System.in);
+//        for(int i =0; i<a.length; i++)
+//        {
+//            a[i] = sc.nextFloat();
+//        }
+//        for(float element : a){
 //            sum = sum+element;
 //        }
-//        System.out.println("The value of average marks is "+sum/marks.length);
+//       System.out.println("The value of average marks is "+sum/a.length);
 
        // practice4
 //        int [][] mat1 = {{1,2,3},
 //                          {4,5,6}};
 //        int mat2[][] = {{7,8,9},
 //                        {10,2,3}};
+    //    int result[][] = new int[2][3]; --> first rule
 //        int  result [][] = {{0,0,0},
-//                            {0,0,0}};
+//                            {0,0,0}}; --> second rule
 //        for(int i = 0; i<mat1.length; i++) // row number of times
 //        {
 //            for(int j = 0; j<mat2[i].length; j++) // column number of times
@@ -103,26 +110,26 @@ public class Irk_29_Practice_Set_6 {
 
 
         //practice7
-//        int arr[] = {1,4,3,2,5,-3};
-//      //  int max = Integer.MIN_VALUE;
-//        int max = 0;
+//        int arr[] = {1,4,3,2,5,-3,3};
+//      //  int min = Integer.MIN_VALUE;
+//        int min = -1;
 //        for(int i = 0; i<arr.length; i++)
 //        {
-//            if(max>arr[i])
+//            if(min>arr[i])
 //            {
-//                max = arr[i];
+//                min = arr[i];
 //            }
 //        }
-//        System.out.println("The value of maximum is = "+max);
+//        System.out.println("The value of minimum is = "+min);
 
         //practice8
-        int [] arr = {1,2,3,4,5,4};
-        boolean isSorted = false;
-        for(int i = 0; i<arr.length; i++)
+        int [] arr = {1,2,3,4,5,6,9};
+        boolean isSorted = true;
+        for(int i = 0; i<arr.length-1; i++)
         {
             if(arr[i]>arr[i+1])
             {
-                isSorted = true;
+                isSorted = false;
                 break;
             }
         }
@@ -132,5 +139,6 @@ public class Irk_29_Practice_Set_6 {
         else{
             System.out.println("The array is not sorted");
         }
+
     }
 }

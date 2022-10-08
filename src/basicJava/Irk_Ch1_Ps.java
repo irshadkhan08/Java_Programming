@@ -22,8 +22,8 @@ public class Irk_Ch1_Ps {
 //        System.out.println("cgpa = "+cgpa);
 
         //problem--3
-//        String name = br.readLine();
-//        System.out.println("Hello "+name+" have a good day ");
+        String name = br.readLine();
+        System.out.println("Hello "+name+" have a good day ");
 
         //problem --4
         // Mile to Km 1mile = 1.609km
@@ -32,18 +32,21 @@ public class Irk_Ch1_Ps {
 //        float mile = 1.609f;
 //        float km = Float.parseFloat(br.readLine());
 //        Float Miles = (mile*km);
-//        System.out.println("Kilometers to miles = "+Miles+"km");
+//        System.out.println("Miles to kilometers = "+Miles+"km");
 
 //        float km = 1/1.609f;
 //        float mile = Float.parseFloat(br.readLine());
 //        float KM = km*mile;
-//        System.out.println("Miles to Kilometers = "+KM+"miles");
+//        System.out.println("kilometers to miles = "+KM+"Mile");
+
+
+
 
         // problem --5
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the value ");
-        boolean a = sc.hasNextFloat();
-        System.out.println("float or not"+"\nvalue is "+a);
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the value ");
+//        boolean a = sc.hasNextFloat();
+//        System.out.println("float or not"+"\nvalue is "+a);
 
 
     }

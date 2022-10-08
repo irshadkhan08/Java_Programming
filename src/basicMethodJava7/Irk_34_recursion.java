@@ -17,16 +17,15 @@ public class Irk_34_recursion {
 //            return n*factorial(n-1);
 //        }
         else{
-            int product = 1;
+            int factorial = 1;
             for(int i = 1; i<=n; i++)
             {
-                product*=i;
+                factorial*=i;
             }
-            return product;
+            return factorial;
         }
     }
     public static void main(String[] args) {
-
         int ans = factorial(4);
         System.out.println("factorial of 4 is :"+ans);
         System.out.println("factorial of 5 is :"+factorial(5));

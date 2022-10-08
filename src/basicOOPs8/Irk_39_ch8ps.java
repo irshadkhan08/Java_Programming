@@ -2,16 +2,17 @@ package basicOOPs8;
 
 class Employee1{
     int salary = 1233;
-    String name;
+    String name = "sakir";
     int getSalary(){
         return salary;
     }
     String getName(){
         return name;
     }
-   public  void setName(String name1)
+   public  String setName(String name1)
    {
         name = name1;
+        return name;
     }
 }
 
@@ -22,7 +23,7 @@ class Cellphone{
     void singing(){
         System.out.println("Singing....");
     }
-    void callFriend(){
+    void callBrother(){
         System.out.println("Calling sakir");
     }
 }
@@ -39,8 +40,8 @@ class Square{
 }
 
 class Rectangle{
-    int len;
-    int breadth;
+    int len = 10;
+    int breadth = 15;
 
     int area(){
         return len*breadth;
@@ -79,36 +80,38 @@ public class Irk_39_ch8ps {
     public static void main(String[] args) {
 
         // problem1
-       /* Employee1 emp = new Employee1();
+        Employee1 emp = new Employee1();
+        emp.salary = 50000;
+        emp.name = "anil";
         System.out.println("Employee salary "+emp.getSalary());
-        emp.setName("irshad khan");
         System.out.println("Employee name "+emp.getName());
+        System.out.println("Set name is "+ emp.setName("irshad khan"));
 
         //problem2
         Cellphone samsung = new Cellphone();
         samsung.ringing();
         samsung.singing();
-        samsung.callFriend();*/
+        samsung.callBrother();
 
         //problem3
-//        Square s1 = new Square();
-//        s1.side = 5;
-//        System.out.println("Area of square "+s1.area());
-//        s1.perimeter();
-//        System.out.println("Perimeter of square "+s1.perimeter());
+        Square s1 = new Square();
+        s1.side = 5;
+        System.out.println("Area of square "+s1.area());
+        s1.perimeter();
+        System.out.println("Perimeter of square "+s1.perimeter());
 
         //problem4
-//        Rectangle rect = new Rectangle();
-//        rect.len = 50;
-//        rect.breadth = 40;
-//        System.out.println("Area of rectangle = "+rect.area());
-//        System.out.println("Perimeter of rectangle = "+rect.perimeter());
+        Rectangle rect = new Rectangle();
+        rect.len = 50;
+        rect.breadth = 40;
+        System.out.println("Area of rectangle = "+rect.area());
+        System.out.println("Perimeter of rectangle = "+rect.perimeter());
 
         //problem5
-//        Tommy t = new Tommy();
-//        t.hit();
-//        t.run();
-//        t.fire();
+        Tommy t = new Tommy();
+        t.hit();
+        t.run();
+        t.fire();
 
         //problem6
         Circle c1 = new Circle();

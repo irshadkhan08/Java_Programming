@@ -86,15 +86,15 @@ class Sphere{
 public class Irk_44_ps09 {
     public static void main(String[] args) {
        //problem1
-/*      Cylinder cl = new Cylinder(3,6);
+//      Cylinder cl = new Cylinder(3,6);
 //        cl.setRadius(9);
 //        cl.setHeight(12);
-        System.out.println("Radius of Cylinder = "+cl.getRadius());
-        System.out.println("Height of Cylinder = "+cl.getHeight());8
-
-        //problem2
-        System.out.println("surface area of cylinder = "+cl.surfaceArea());
-        System.out.println("volume of cylinder = "+cl.volume());*/
+//        System.out.println("Radius of Cylinder = "+cl.getRadius());
+//        System.out.println("Height of Cylinder = "+cl.getHeight());//8
+//
+//        //problem2
+//        System.out.println("surface area of cylinder = "+cl.surfaceArea());
+//        System.out.println("volume of cylinder = "+cl.volume());
 
         //problem3
 //        Cylinder cl = new Cylinder(3,6);
@@ -109,7 +109,7 @@ public class Irk_44_ps09 {
 
         //problem5
         Sphere sp = new Sphere(5);
-//        sp.setRadius(4);
+        sp.setRadius(4);
         System.out.println("radius of Sphere = "+sp.getRadius());
         System.out.println("surface area of sphere = "+sp.areaOfSphere());
         System.out.println("volume of sphere = "+sp.volumeOfSphere());

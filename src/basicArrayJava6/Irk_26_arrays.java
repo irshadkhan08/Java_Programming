@@ -23,7 +23,6 @@ public class Irk_26_arrays {
         marks[3] = 87;
         marks[4] = 98;
 
-
         // 3. Declaration \,memory allocation and initialization together
         // marks[5] = 78; --> throws an error
         System.out.println(marks[4]);

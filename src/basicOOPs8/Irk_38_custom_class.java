@@ -5,8 +5,8 @@ package basicOOPs8;
     String name = "sakir";
 
     void printDetails(){
-        System.out.println("Enter your id is "+id);
-        System.out.println("Enter your name is "+name);
+        System.out.println("your id is "+id);
+        System.out.println("your name is "+name);
     }
 
     int getSalary(){
@@ -33,11 +33,12 @@ public class Irk_38_custom_class {
 
         //printing the attributes
         irshad.printDetails();
+        int salary1 = irshad.getSalary();
+        System.out.println("Irshad salary is :"+salary1);
+
         monika.printDetails();
-        irshad.getSalary();
-       int salary = monika.getSalary();
-     //  salary = irshad.getSalary();// only irshad salary display
-        System.out.println("Enter your salary "+salary);
+        int salary = monika.getSalary();
+        System.out.println("monika salary is :"+salary);
     }
 }
 

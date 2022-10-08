@@ -4,11 +4,11 @@ public class Irk_25_practice_set_5 {
     public static void main(String[] args) {
 
         //ques1
-//        int i = 1;
-//        while(i<=5){
-//            for (int j = 5; j>=i; j--) {
+//        int i = 4;
+//        while(i>=0){
+//            for (int j = 1; j<=i; j++) {
 //                System.out.print("*"+" ");
-//            }i++;
+//            }i--;
 //            System.out.println(" ");
 //        }
 
@@ -22,21 +22,24 @@ public class Irk_25_practice_set_5 {
 //        System.out.println("sum of n even number is = "+sum);
 
         //ques3
-//        int num = 10;
+    //   int num = 10;
 //        System.out.println("print the table of 10");
-//        for(int i = 1; i<=num; i++)
-//        {
-////            System.out.println(num+"*"+i+" = "+num*i);
+       // for(int i = 1; i<=num; i++)
+  //     {
+ //       System.out.format("%d X %d = %d\n",num,i,i*num);
+//            System.out.println(num+"*"+i+" = "+num*i);
 //            System.out.printf("%d X %d = %d\n" ,num,i,num*i);
-//        }
+   //    }
 
         //ques4
-//        int num = 10;
+      //  int num = 10;
 //        System.out.println("print the table of 10");
 //       for(int i = 10; i>=1; --i)
 //        {
 //          System.out.println(num+"*"+i+" = "+num*i);
 //            //System.out.printf("%d X %d = %d\n" ,num,i,num*i);
+        //System.out.printf("%d X %d = %d\n",num,i,num*i);
+//            System.out.format("%d X %d = %d\n",num,i,num*i);
 //        }
 
         //ques5
@@ -45,7 +48,7 @@ public class Irk_25_practice_set_5 {
 //       {
 //           fact = fact*i;
 //       }
-//        System.out.println("factorial of 5 = "+fact);
+  //      System.out.println("factorial of 5 = "+fact);
 
         //ques6
 //        int fact = 1,i = 1;

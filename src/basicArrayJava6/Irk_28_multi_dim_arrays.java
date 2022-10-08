@@ -15,9 +15,9 @@ public class Irk_28_multi_dim_arrays {
 
         //Displaying the 2-D Array using (for loop)
         System.out.println("printing a 2-D arrays using for loop");
-        for(int i = 0; i<=flats.length; i++)
+        for(int i = 0; i<=flats.length-1; i++)
         {
-            for(int j = 0; j<=flats.length; j++)
+            for(int j = 0; j<=flats[i].length-1; j++)
             {
                 System.out.print(flats[i][j]+" ");
             }

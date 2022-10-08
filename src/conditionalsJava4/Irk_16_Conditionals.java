@@ -9,7 +9,7 @@ public class Irk_16_Conditionals {
 //        else{
 //            System.out.println("no boy cannot drive yet!");
 //        }
-        int age = 12;
+        int age = 14;
         boolean cond = (age==12);
 
         if(cond)

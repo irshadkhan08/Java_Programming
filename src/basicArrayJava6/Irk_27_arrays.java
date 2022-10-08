@@ -12,24 +12,24 @@ public class Irk_27_arrays {
         System.out.println(marks.length);
 
         //Displaying the Array (Native way)
-        System.out.println(marks[0]);
-        System.out.println(marks[1]);
-        System.out.println(marks[2]);
-        System.out.println(marks[3]);
-        System.out.println(marks[4]);
+//        System.out.println(marks[0]);
+//        System.out.println(marks[1]);
+//        System.out.println(marks[2]);
+//        System.out.println(marks[3]);
+//        System.out.println(marks[4]);
 
-        // Displaying the array (for loop)
-        System.out.println("printing using for loop ");
-        for(int i = 0; i<marks.length; i++)
-        {
-            System.out.println("marks["+i+"] = "+marks[i]);
-        }
+//        // Displaying the array (for loop)
+//        System.out.println("printing using for loop ");
+//        for(int i = 0; i<marks.length; i++)
+//        {
+//            System.out.println("marks["+i+"] = "+marks[i]);
+//        }
 
-        System.out.println("printing using for loop in reverse order ");
-        for(int j = marks.length-1; j>=0; --j)
-        {
-            System.out.println(marks[j]);
-        }
+//        System.out.println("printing using for loop in reverse order ");
+//        for(int j = marks.length-1; j>=0; --j)
+//        {
+//            System.out.println(marks[j]);
+//        }
 
         //quick quiz : Displaying the array (for-each loop)
         System.out.println("printing using for each loop..");

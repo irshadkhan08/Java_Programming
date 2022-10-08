@@ -87,8 +87,8 @@ public class Irk_52_ch10ps {
     public static void main(String[] args) {
 
 //        //problem1
-//        Circle c = new Circle(2);
-//        Cylinder cl = new Cylinder(4,5);
+     //  Circle c = new Circle(2);
+      //  Cylinder cl = new Cylinder(4,5);
 //        //problem3
 //        System.out.println("Area of circle = "+cl.area());
 //        System.out.println("Volume of Cylinder = "+cl.volume());
@@ -108,6 +108,5 @@ public class Irk_52_ch10ps {
         cb1.setHeight(8);
         System.out.println("value of height = "+cb1.getHeight());
         System.out.println("volume of cuboid = "+cb1.volume());
-
     }
 }

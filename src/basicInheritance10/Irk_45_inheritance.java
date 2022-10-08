@@ -2,15 +2,14 @@ package basicInheritance10;
 
 class Base{
     int x;
-
-    void setX(int x){
+    void setX(int x)
+    {
         this.x = x;
     }
     int getX(){
         return x;
     }
 }
-
 class Derived extends Base{
     int y;
 

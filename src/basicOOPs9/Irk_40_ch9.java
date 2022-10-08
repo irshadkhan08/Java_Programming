@@ -40,8 +40,8 @@ public class Irk_40_ch9 {
     public static void main(String[] args) {
         Employee e1 = new Employee();
         // Access modifiers, getters & setters
-//        e1.id = 34;
-//        e1.name  = "monika"; --> throws an error due to private access modifier
+        //e1.id = 34;
+       // e1.name  = "monika"; --> throws an error due to private access modifier
 //        e1.setId(12);
 //        System.out.println("Employee id = "+e1.getId());
 //        e1.setName("Irshad Khan");

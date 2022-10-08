@@ -21,33 +21,33 @@ public class Irk_09_ch2_op_pre {
 
         // quick quiz
 //        int x = 12;
-//        int y = 1;
-//        int k = x*y/2;
+//        int y = 5;
+//        int k = (x+y)/2;
 //        System.out.println("k = "+k);
+//
+//        int a = 5;
+//        int b = 1;
+//        int c = 4;
+////        int k = b*b-4*a*c/2*a; // k = -199
+//        int k = b*b-4*a*c/(2*a); // k = -7
+//        int j = ((b*b-4*a*c)/2*a); // j = -195
+//        System.out.println("k = "+k);
+//        System.out.println("j = "+j);
 
-        int a = 5;
-        int b = 1;
-        int c = 4;
-//        int k = b*b-4*a*c/2*a; // k = -199
-        int k = b*b-4*a*c/(2*a); // k = -7
-        int j = ((b*b-4*a*c)/2*a); // j = -39
-        System.out.println("k = "+k);
-        System.out.println("j = "+j);
-
-        //quiz practice
+//        //quiz practice
         int x = 12;
         int y = 6;
-        System.out.println((x-y)/2);
-
-        int v = 4;
-        int u = 2;
-        System.out.println(v*v-u+v);
-        System.out.println(u+v-(v*v));
-
-        a = 2;
-        b = 3;
-        int d = 5;
-        System.out.println(a*b-d*c);
-        System.out.println(a*b-d);
+        System.out.println(x-y/2);
+//
+//        int v = 4;
+//        int u = 2;
+//        System.out.println(v*v-u+v);
+//        System.out.println(u+v-(v*v));
+//
+//        a = 2;
+//        b = 3;
+//        int d = 5;
+//        System.out.println(a*b-d*c);
+//        System.out.println(a*b-d);
     }
 }

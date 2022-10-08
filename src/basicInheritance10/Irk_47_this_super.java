@@ -7,9 +7,10 @@ package basicInheritance10;
 //    }
 //    Ekclass(int a)
 //    {
-//        a = a;//output a = 3 without this .this is reference current
-//        this.a = a; // this keyword use print is a = 4
+//       // a = a;//output a = 3 without this .this is reference current
+//        this.a = a; // this keyword use print is a = 40
 //    }
+//
 //}
 
 // super keyword work to start in inheritance
@@ -21,7 +22,7 @@ class Ekclass{
     }
     Ekclass(int a)
     {
-        a = a;//output a = 3 without this .this is reference current
+       // a = a;//output a = 3 without this .this is reference current
         this.a = a; // this keyword use print is a = 4
     }
 }
@@ -41,11 +42,11 @@ class Doclass extends Ekclass{
 public class Irk_47_this_super {
     public static void main(String[] args) {
       //this keyword
-//            Ekclass e = new Ekclass(4);
+//            Ekclass e = new Ekclass(40);
 //            System.out.println("The value of a = "+e.getA());
-        // super keyword
-        Ekclass e = new Ekclass(56);
-        System.out.println("value of a = "+e.getA());
+//        // super keyword
+//        Ekclass e = new Ekclass(56);
+//        System.out.println("value of a = "+e.getA());
         Doclass d = new Doclass(34);
 
     }

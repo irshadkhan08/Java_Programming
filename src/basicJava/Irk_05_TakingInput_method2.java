@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Irk_05_TakingInput_method2 {
 
-             public static void main(String[] args)throws IOException {
+           public static void main(String[] args)throws IOException {
                  int a,b,sum;
 //                 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 

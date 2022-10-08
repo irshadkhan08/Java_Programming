@@ -36,26 +36,20 @@ public class Irk_35_practice_methods7 {
 //    static void pattern1(int n)
 //    {
 //        for(int i = n; i>0; i--){
-//            for(int j = i; j>0; j--)
+////            for(int j = i; j>0; j--)
+//            for(int j = 0; j<i; j++)
 //            {
 //                System.out.print("*"+" ");
 //            }
 //            System.out.println();
 //        }
 //    }
-
-  ///  static int fib(int n){
-//        if(n==1){
-//            return 0;
-//        }
-//        else if(n==2){
+//     int fib(int n){
+//        if(n==0 || n==1) {
 //            return 1;
 //        }
-//        if(n==1 || n==2){
-//            return n-1;
-//        }
 //        else{
-//            return fib(n-1)+fib(n-2);
+//            return (fib(n-1)+fib(n-2));
 //        }
 //    }
 
@@ -76,36 +70,34 @@ public class Irk_35_practice_methods7 {
 //          pattern2_rec(n-1);
 //          for(int i = n; i>0; --i)
 //          {
-////            pattern2_rec(n-1);
-//              System.out.print("*"+" ");
-//          }
-//
+//             System.out.print("*"+" ");
+//         }
 //          System.out.println();
 //      }
 //    }
 
-//    static void pattern1_rec(int n){
-//      if(n>0)
-//      {
-//          pattern1_rec(n-1);
-//          for(int i =0; i<n; i++){
-//              System.out.print("*"+" ");
-//          }
-//          System.out.println();
-//      }
-//    }
+    static void pattern1_rec(int n){
+      if(n>0)
+      {
+          pattern1_rec(n-1);
+          for(int i =0; i<n; i++){
+              System.out.print("*"+" ");
+          }
+          System.out.println();
+      }
+    }
 
     //pattern1_rec(3)
     //pattern1_rec(2)+3 times star and new line
     //pattern1_rec(1)+2 times star and new line + 3 times star and new line
     //pattern1_rec(0)+1 times star and new line + 2 times star and new
 
-//    static void convert_c_to_f(int n)
-//    {
-//        int ces = 0;
-//        float f = 32+9/5*ces;
-//        System.out.println(f+"f");
-//    }
+    static void convert_c_to_f(int ces)
+    {
+        //int ces = 0;
+        float f = 32+9/5*ces;
+        System.out.println(f+"f");
+    }
 
     static void iterative_method(int n)
     {
@@ -117,13 +109,12 @@ public class Irk_35_practice_methods7 {
         System.out.println("sum of natural number iterative method = "+sum);
     }
 
-
     public static void main(String[] args) {
         //problem1
-      //multiplication(7);
+     // multiplication(7);
 
         //problem2
-//        pattern(4);
+       // pattern(4);
 
         //problem3
 //       int ans =  sumRec(3);
@@ -134,21 +125,25 @@ public class Irk_35_practice_methods7 {
 
         //problem5
         // fibonacci series - 0,1,1,2,3,5,8,13,21,34
-//       int ans =  fib(7);
-//       System.out.println("ans = "+ans);
+//        Irk_35_practice_methods7 obj = new Irk_35_practice_methods7();
+//        for(int i = 0; i<10; i++) {
+//            System.out.print(obj.fib(i)+",");
+//        }
+
 
         //problem6
-//            System.out.println("The sum of average number using varargs "+avg(2,3,4));
+        //    System.out.println("The sum of average number using varargs "+avg(2,3,4));
         //problem7
        // pattern2_rec(5);
 
         //problem8
-        //pattern1_rec(9);
+       // pattern1_rec(9);
 
         //problem9
-     //   convert_c_to_f(0);
+       // convert_c_to_f(70);
 
         //problem10
         iterative_method(10);
+
     }
 }
